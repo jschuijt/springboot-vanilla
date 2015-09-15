@@ -56,6 +56,7 @@ public class Application extends SpringBootServletInitializer {
     	return registration;
     }
     
+    
     @Bean
     ServletRegistrationBean h2servletRegistration(){
         ServletRegistrationBean registrationBean = new ServletRegistrationBean( new WebServlet());

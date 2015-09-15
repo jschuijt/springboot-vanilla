@@ -11,13 +11,13 @@
    
    <context:component-scan base-package="demo" />
 
-    <bean id="messageSource"
+    <!-- <bean id="messageSource"
           class="org.springframework.context.support.ResourceBundleMessageSource">
         <property name="basename" value="i18n/messages" />
         <property name="useCodeAsDefaultMessage" value="true" />
-    </bean>
+    </bean> -->
     
-    <beans profile="local, dev">
+    <!-- <beans profile="local, dev">
       <context:property-placeholder location="classpath:application.properties"/>
       
       <bean id="propertyPlaceHolderConfigurer"
@@ -31,6 +31,6 @@
       <bean id="propertyPlaceHolderConfigurer"
             class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer"></bean>
      
-    </beans>
+    </beans> -->
 
 </beans>
